@@ -1,0 +1,87 @@
+.search{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.btn-search{
+    margin-left: 10px;
+}
+.people-post{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+a{
+    margin-right: 10px;
+}
+.user-container{
+    margin-top: 30px;
+    margin-left: 40px;
+   
+    text-align: center;
+    display: flex;
+    position: relative;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .people-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .people-image img {
+    /* max-height: 100%;
+    max-width: 100%; */
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+  }
+  .user-card {
+    width: calc(15% - 16px); /* 20% width for 5 cards in a row, considering margin */
+    margin-bottom: 16px; /* Adjust the margin as needed */
+    box-sizing: border-box;
+  }
+  
+    
+  .post-container .btn-tweet{
+    margin-top: 10px;
+    float: right;
+}
+.post-container{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.post-container mat-card{
+    background-color:cornflowerblue;
+    margin-top: 2px;
+    height: 150px;
+}
+.post-container mat-card-actions{
+    float: right;
+}
+.post-container img{
+    height: 50px;
+    width: 50px;
+    margin-right: 30px;
+}
+.post-container .btn-like{
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+   
+}
+.post-container .btn-dislike{
+    border: none;
+    background-color: cornflowerblue;
+    color: blue;
+}
+.btn-people-post button{
+    border-radius: 8px;
+    border: 0px;
+}
+.user-card{
+    border-radius: 2px;
+}
